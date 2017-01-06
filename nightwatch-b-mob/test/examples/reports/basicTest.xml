@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="basicTest"
+    errors="1" failures="0" hostname="" id="" package="basicTest" skipped="0"
+    tests="1" time="0.04900" timestamp="Fri, 06 Jan 2017 08:13:00 GMT">
+  
+    <testcase name="Demo test Google" time="0.04900" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Basic Test / Demo test Google]:
+
+  ReferenceError: log is not defined
+    at /home/tft/Desktop/nightmob/test/basicTest.js:29:17
+    at IncomingMessage.&lt;anonymous&gt; (/home/tft/Desktop/nightmob/node_modules/browsermob-proxy/index.js:232:21)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:903:12)
+    at doNTCallback2 (node.js:439:9)
+    at process._tickDomainCallback (node.js:394:17)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
